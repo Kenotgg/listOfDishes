@@ -1,0 +1,30 @@
+﻿<Page x:Class="listOfDishes.DishCreationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:listOfDishes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DishCreationPage">
+
+    <Grid Background="White">
+        <StackPanel>
+            <Button Click="OnGoBack" Height="25" Content="Уйти"></Button>
+            <TextBlock>Имя</TextBlock>
+            <TextBox x:Name="NameBox"></TextBox>
+            <TextBlock>Вес</TextBlock>
+            <TextBox x:Name="WeightBox"></TextBox>
+            <TextBlock >ККАЛ</TextBlock>
+            <TextBox x:Name="KcalBox"></TextBox>
+            <TextBlock >Б</TextBlock>
+            <TextBox  x:Name="ProteinsBox"></TextBox>
+            <TextBlock>Ж</TextBlock>
+            <TextBox x:Name="FatsBox"></TextBox>
+            <TextBlock>У</TextBlock>
+            <TextBox x:Name="carboBox"></TextBox>
+            <Button Click="OnAdd" Height="25" Content="Добавить"></Button>
+            
+        </StackPanel>
+    </Grid>
+</Page>
